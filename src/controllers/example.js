@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = () => {
-  return ['get', ['/', (req, res) => {
+  return ['get', ['/example', (req, res) => {
     res.send();
   }]];
 };
