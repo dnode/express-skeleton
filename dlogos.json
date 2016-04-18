@@ -1,0 +1,9 @@
+[
+  {
+    "source": "node_modules/dragonprojects-logo/logo.png",
+    "path": "www",
+    "destinations": [
+      { "path": "favicon.ico", "width": 32 }
+    ]
+  }
+]
