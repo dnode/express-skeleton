@@ -12,4 +12,4 @@ app.use(require('./middlewares/example.js')());
 require('dcontrollers')(app, [
   require('./controllers/example.js')()
 ]);
-app.use(app.express.static('web'));
+app.use(app.express.static('www'));
