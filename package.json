@@ -11,7 +11,8 @@
     "postinstall": "npm-run-all --parallel postinstall:*",
     "postinstall:bower": "bower i",
     "postinstall:dlogos": "dlogos",
-    "start": "dthrong"
+    "start": "dthrong",
+    "develop": "node -r dotenv/config src/app.js"
   },
   "dependencies": {
     "bower": "^1.7.2",
@@ -20,6 +21,9 @@
     "dthrong": "^2.3.0",
     "dwebserver": "^2.2.0",
     "npm-run-all": "^1.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
   },
   "repository": {
     "type": "git",
