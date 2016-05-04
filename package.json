@@ -16,12 +16,9 @@
   "dependencies": {
     "bower": "^1.7.2",
     "dcontrollers": "^1.0.0",
-    "dexpress": "^1.1.0",
-    "dheaders": "^1.0.0",
-    "dhttp-auth": "^1.3.0",
     "dlogos": "^2.0.0",
-    "dnewrelic": "^1.4.0",
     "dthrong": "^2.3.0",
+    "dwebserver": "^2.2.0",
     "npm-run-all": "^1.5.1"
   },
   "repository": {
