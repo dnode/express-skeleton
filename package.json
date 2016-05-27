@@ -8,7 +8,7 @@
   "readmeFilename": "README.md",
   "main": "src/app.js",
   "scripts": {
-    "postinstall": "npm-run-all --parallel postinstall:*",
+    "postinstall": "run-p postinstall:*",
     "postinstall:bower": "bower i",
     "postinstall:dlogos": "dlogos",
     "start": "dthrong",
@@ -20,7 +20,7 @@
     "dlogos": "^2.0.0",
     "dthrong": "^2.3.0",
     "dwebserver": "^2.2.0",
-    "npm-run-all": "^1.5.1"
+    "npm-run-all": "^2.1.1"
   },
   "devDependencies": {
     "dotenv": "^2.0.0"
